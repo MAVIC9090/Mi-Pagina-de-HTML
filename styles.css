@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0c85f7e5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+nav {
+    background-color: #d7ee55;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo adicional para diferentes secciones */
+#etiquetas, #html, #parrafos, #color, #imagen, #video, #gif, #formulario, #listas, #tablas {
+    color: #4b4b4b;
+}
+
+/* Fondos diferentes para cada sección */
+#html {
+    background-color: #e3f2fd;
+}
+
+#etiquetas {
+    background-color: #fce4ec;
+}
+
+#parrafos {
+    background-color: #fff8e1;
+}
+
+#color {
+    background-color: #f3e5f5;
+}
+
+#imagen {
+    background-color: #f9fbe7;
+}
+
+#video {
+    background-color: #e0f7fa;
+}
+
+#gif {
+    background-color: #f3e5f5;
+}
+
+#formulario {
+    background-color: #ffebee;
+}
+
+#listas {
+    background-color: #e8eaf6;
+}
+
+#tablas {
+    background-color: #e0f2f1;
+}
+
+h2 {
+    color: #8cbbc4;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+img {
+    display: block;
+    margin: 10px 0;
+}
+
+video {
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+header h1 {
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo adicional para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #9378a0;
+    color: white;
+}
